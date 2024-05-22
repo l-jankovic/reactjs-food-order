@@ -17,6 +17,7 @@ const Cart = (props) => {
 
   const cartItemAddHandler = (item) => {
     cartCtx.addItem({ ...item, amount: 1 });
+    //sredjeno
   };
 
   const cartItems = (
